@@ -8,7 +8,7 @@ def oxford_comma(array)
   else
     for i in 0...length do
       if i == length -1 
-        newStr += " and " + array[i]
+        newStr += ", and " + array[i]
       elsif i == 0
         newStr = array[i]
       else
